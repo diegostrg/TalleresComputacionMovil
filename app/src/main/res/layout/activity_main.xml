@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#EEE">
+
+    <Button
+        android:id="@+id/btnTicTacToe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TicTacToe"
+        android:layout_margin="8dp"
+        android:backgroundTint="#6200EE"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnRandomGreet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Random Greet"
+        android:layout_margin="8dp"
+        android:backgroundTint="#6200EE"
+        android:textColor="#FFFFFF" />
+
+    <Spinner
+        android:id="@+id/spinnerLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        />
+    <Button
+        android:id="@+id/btnCountries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Paises"
+        android:layout_margin="8dp"
+        android:backgroundTint="#6200EE"
+        android:textColor="#FFFFFF" />
+</LinearLayout>
+
